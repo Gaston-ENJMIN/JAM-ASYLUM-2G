@@ -29,8 +29,8 @@ public class Rotation : MonoBehaviour
 
     void LampeTorche()
     {   
-        // Je switch l'état ON / OFF en appuyant sur F
-        if (Input.GetKeyUp(KeyCode.F))
+        // Je switch l'état ON / OFF en appuyant sur clique droit
+        if (Input.GetButtonDown("Fire2"))
         {
             lampe.enabled = !lampe.enabled;
         }
