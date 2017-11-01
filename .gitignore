@@ -32,3 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/RTS_Camera/
+
+Assets/RTS_Camera\.meta
